@@ -1,0 +1,332 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+      font-family: 'Raleway', sans-serif;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #C7C7C7;
+    margin-bottom: 50px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.basket {
+    height: 30px;
+}
+
+.navbar-basket {
+    text-align: center;
+}
+
+ul.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-item {
+    border-right: 1px solid #C7C7C7;
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: black;
+    padding: 0 8px;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-item:nth-last-child(1) {
+    border-right: 0px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-toggle {
+    width: 25px;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item {
+        border-right: none;
+        margin: 15px 0;
+        padding: 0;
+    }
+
+    ul.navbar-nav {
+        margin-bottom: 15px;
+    }
+}
+
+/* OneProduct View */
+.oneProduct div em {
+  color: lightgray;
+}
+.btn-primary {
+  background-color: #46bfce;
+  border-color: #46bfce;
+}
+.oneProduct .btn-primary {
+    margin-top: 20px;
+}
+.btn-primary:hover {
+  background-color: rgba(70, 191, 206, 0.7);
+  border-color: rgba(70, 191, 206, 0.7);
+}
+.stockstatus {
+  display: block;
+  width: 90px;
+}
+.card {
+  border: none;
+}
+.product-tilbage {
+      background-color: #e9ecef;
+      position: relative;
+      float: left;
+      color: #555;
+      padding: 5px 10px;
+      margin-bottom: 20px;
+      transition: all .3s ease-in-out;
+}
+.product-tilbage:hover {
+      background: #46bfce;
+      color: #fff;
+      text-decoration: none;
+      transition: all .3s ease-in-out;
+}
+.fas .fa-long-arrow-alt-left {
+      font-size: 10px;
+
+}
+/* FRONT VIEW */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-f {
+      font-size: 20px;
+}
+.kampagner {
+  margin-top: 50px;
+}
+.card-img-overlay {
+  margin: 30px;
+}
+.card-title2 {
+  margin-top: 20%;
+}
+
+.card hr {
+  border-width: 1px;
+  border-color: white;
+}
+.lSSlideWrapper {
+  margin-bottom: 30px;
+}
+.lSpg {
+  display: none;
+}
+.sliderpro {
+  position: relative;
+}
+.lslide {
+      position: relative;
+      height: 250px;
+}
+.itemsliderimg {
+      position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+.content-slider h6 {
+  color:#555;
+  position: absolute;
+  bottom: 0;
+  left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+}
+
+/*Filter*/
+.filterDiv {
+      display: none;
+}
+
+.filterDiv2 {
+      display: none;
+}
+
+.show {
+      display: block;
+}
+
+ul{
+  list-style: none outside none;
+  padding-left: 0;
+  margin: 0;
+      }
+ .demo .item{
+      margin-bottom: 60px;
+ }
+      .content-slider li{
+          text-align: center;
+          color: #FFF;
+      }
+      .content-slider h3 {
+          margin: 0;
+          padding: 70px 0;
+      }
+      .demo{
+            width: 800px;
+      }
+
+.itemsliderimg {
+      max-width: 200px;
+}
+
+.demo {
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+
+/* PRODUCTS VIEW */
+.card-body .btn {
+      opacity: 0;
+}
+.card .btn {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  transition: all 0.3s ease-out;
+}
+.card:hover .btn {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      transition: all 0.3s ease-out;
+      opacity: 1;
+}
+.card-text {
+      font-size: 13px;
+      transition: all .3s ease-in-out;
+}
+.card .card-title {
+      transition: all .2s ease-in-out;
+}
+.card:hover .card-title {
+      background-color: #f1f0f0;
+      transition: all .2s ease-in-out;
+}
+.products a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.products a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.products a:hover {
+  text-decoration: none;
+}
+
+.products a:active {
+  text-decoration: none;
+}
+.products .card .card-body a {
+  color: white;
+
+}
+.filterDiv img {
+  display: block;
+  height: 150px;
+  width: auto;
+  max-width: 190px;
+  margin: 0 auto;
+
+}
+.card {
+  margin-bottom: 50px;
+}
+.filterDiv {
+  height: 500px;
+  position: relative;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f1f1f1;
+}
+footer img {
+  width: 100%;
+  height: auto;
+}
+footer h5 {
+  font-size: 1.3em;
+}
+footer {
+  font-size: 0.7em;
+}
+footer td {
+  font-size: 0.7em;
+}
+footer em {
+  opacity: 0;
+}
+
+/* LOGIN VIEW */
+.hide td{
+  opacity: 0;
+}
+.login {
+  display: block;
+  margin: 70px auto 100px;
+  width: 250px;
+}
+
+/* ADMIN USER */
+.haves-users {
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
+
+.haves-users h4 {
+    text-decoration: underline;
+    color: black;
+}
+.haves-users p {
+  margin-bottom: 4px;
+
+  color: #666;
+}
+/* ADMIN PRODUCT */
+.admin-product textarea {
+  padding: 10px;
+  border-color: lightgray;
+}
+
+/* STOCK VIEW */
+.text-area {
+width: 100%;
+}
